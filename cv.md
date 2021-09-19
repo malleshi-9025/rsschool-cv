@@ -36,4 +36,37 @@ def find_nb(m):
     else:
         return counter
 ```
+## Education
+Bachelor's degree, Bauman Moscow State Technical University,
+        RADIOELECTRONICS AND LASER TECHNOLOGIES (RL),
+        RL-6 Technologies of Device Making
 
+## Courses
+### Git
+[LearnGitBranching](https://learngitbranching.js.org/?locale=ru_RU)
+
+### HTML&CSS
+* [HTML for beginners](https://ru.code-basics.com/languages/html)
+* [CSS for beginners](https://ru.code-basics.com/languages/css)
+* FreeCodeCamp.org
+    * [Basic HTML and HTML5](https://www.freecodecamp.org/learn/responsive-web-design/#basic-html-and-html5)
+    * [Basic CSS](https://www.freecodecamp.org/learn/responsive-web-design/#basic-css)
+    * [Applied Visual Design](https://www.freecodecamp.org/learn/responsive-web-design/#applied-visual-design)
+    * [Applied Accessibility](https://www.freecodecamp.org/learn/responsive-web-design/#applied-accessibility)
+    * [Responsive Web Design](Principles https://www.freecodecamp.org/learn/responsive-web-design/#responsive-web-design-principles)
+    * [CSS Flexbox](https://www.freecodecamp.org/learn/responsive-web-design/#css-flexbox)
+    * [CSS Grid](https://www.freecodecamp.org/learn/responsive-web-design/#css-grid)
+
+### Python
+* [Python tutorial](https://pythonworld.ru/samouchitel-python)
+* Coursera:
+    * Programming for Everybody (Getting Started with Python) 
+    * Python Data Structures
+    * Using Python to Access Web Data
+    
+### JavaScript
+[Online-book](https://learn.javascript.ru/) (in progress)
+
+## Languages
+* **Russian** - native speaker.
+* StreamLine Language School **English** test result: Pre-Intermediate (CEFR A2+).    
