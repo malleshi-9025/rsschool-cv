@@ -17,4 +17,23 @@ Recently, I've started to pay a lot of attention to self-organization and standa
 Also I'm not a team player due to lack of experience, but I want to be the one of them.
 
 
-    
+## Skills
+HTML&CSS
+Git
+Python (Fundamentals)
+
+## Code example
+The solution of the [exercise](https://www.codewars.com/kata/5592e3bd57b64d00f3000047/train/python) is below.
+
+```
+def find_nb(m):
+    counter = 0
+    while m > 0:
+        counter += 1
+        m -= counter**3
+    if m < 0:
+        return -1
+    else:
+        return counter
+```
+
