@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ru">
+    
+<head>
+    <link rel="icon" href="pictures/icon-cv-11.jpg">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Пример выполненного проекта CV. Задание RS School Frontend 2021q3.">
+    <title>CV</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#Contacts">Contacts</a></li>
+                <li><a href="#About_myself">About myself</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Code_example">Code example</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#Courses">Courses</a></li>
+                <li><a href="#Languages">Languages</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>      
+        <article>
+            <h1>CV</h1>
+            <img src="pictures/photo.jpg" alt="photo">
+            <section>
+                <h2 class="name">Stanislav Mikhaylov</h2>
+                <h2>Junior Frontend Developer</h2>
+                <address>
+                    <span id="Contacts">Contacts</span>
+                    <ul>
+                        <li><b>Location:</b> Cheboksary, Russia</li>
+                        <li><b>Phone:</b> +7 999 999 99-99</li>
+                        <li><b>Email:</b> stanislavmihailov@gmail.com</li>
+                        <li><b>GitHub:</b> <a href="https://github.com/stmikhayl">stmikhayl</a></li>
+                    </ul>
+                </address>
+            </section>
+            <section>
+                <h2 id="About_myself">About myself</h2>
+                <p>My <i>disadvantages</i> include the fact that very often I approach tasks in a non-standard way,
+                    which leads to a loss of time. My <i>advantages</i> include the fact that usually sooner or 
+                    later I achieve the goal.</p> 
+                <p>Also I'm not a team player due to lack of experience, but I want to be the one of them.</p>
+                <p>Recently, I've started to pay a lot of attention to self-organization and standardization of
+                    methods of interaction with the world. So I hope that I will be able <b>to complete tasks on time</b>
+                     and <b>in the right way</b>.</p>
+            </section>
+            <section>
+                <h2 id="Skills">Skills</h2>
+                <ul>
+                    <li><strong>HTML&CSS</strong></li>
+                    <li><strong>Git</strong></li>
+                    <li><strong>Python (Fundamentals)</strong></li>
+                </ul>
+            </section>
+            <section>
+                <h2 id="Code_example">Code example</h2>
+                <span>The solution of the <a href="https://www.codewars.com/kata/5592e3bd57b64d00f3000047/train/python">exercise</a> is below.</span>
+                <pre> <code>           
+def find_nb(m):
+    counter = 0
+    while m &gt; 0:
+        counter += 1
+        m -= counter**3
+    if m &lt; 0:
+        return -1
+    else:
+        return counter
+                </code></pre>
+            </section>
+            <section>
+                <h2 id="Education">Education</h2>
+                Bachelor's degree, Bauman Moscow State Technical University,
+                RADIOELECTRONICS AND LASER TECHNOLOGIES (RL),
+                RL-6 Technologies of Device Making
+            </section>
+            <section>    
+                <h2 id="Courses">Courses</h2>
+                <h3>Git</h3>
+                <a href="https://learngitbranching.js.org/?locale=ru_RU">LearnGitBranching</a>
+                <h3>HTML&CSS</h3>
+                <dl>
+                    <dt><a href="https://ru.code-basics.com/languages/html">HTML for beginners</a></dt>
+                    <dt><a href="https://ru.code-basics.com/languages/css">CSS for beginners</a></dt>
+                    <dt>FreeCodeCamp.org</dt>
+                        <dd><a href="https://www.freecodecamp.org/learn/responsive-web-design/#basic-html-and-html5">Basic HTML and HTML5</a></dd>
+                        <dd><a href="https://www.freecodecamp.org/learn/responsive-web-design/#basic-css">Basic CSS</a></dd>
+                        <dd><a href="https://www.freecodecamp.org/learn/responsive-web-design/#applied-visual-design">Applied Visual Design</a></dd>
+                        <dd><a href="https://www.freecodecamp.org/learn/responsive-web-design/#applied-accessibility">Applied Accessibility</a></dd>
+                        <dd><a href="https://www.freecodecamp.org/learn/responsive-web-design/#responsive-web-design-principles">Responsive Web Design Principles</a></dd>
+                        <dd><a href="https://www.freecodecamp.org/learn/responsive-web-design/#css-flexbox">CSS Flexbox</a></dd>
+                        <dd><a href="https://www.freecodecamp.org/learn/responsive-web-design/#css-grid">CSS Grid</a></dd>
+                    
+                </dl>
+                <h3>Python</h3>
+                <dl>
+                    <dt><a href="https://pythonworld.ru/samouchitel-python">Python tutorial</a></dt>
+                    <dt>Coursera</dt>
+                        <dd><a href="https://ru.coursera.org/learn/python">Programming for Everybody (Getting Started with Python)</a></dd>
+                        <dd><a href="https://www.coursera.org/learn/python-data">Python Data Structures</a></dd>
+                        <dd><a href="https://ru.coursera.org/learn/python-network-data">Using Python to Access Web Data</a></dd>
+                </dl>
+                <h3>JavaScript</h3>
+                <span><a href="https://learn.javascript.ru/">Online-book</a> (in progress)</span>    
+            </section>   
+            <section>
+                <h2 id="Languages">Languages</h2>
+                <ul>
+                    <li><b>Russian</b> - native speaker.</li>
+                    <li>StreamLine Language School <b>English</b> test result: Pre-Intermediate (CEFR A2+)</li>
+                </ul>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="RS School logo" width="50"></a>
+        <a href="https://github.com/stmikhayl"><img src="pictures/Octocat.png" alt="GitHub logo" width="50"></a>
+    </footer>
+</body>
+</html>
+
