@@ -3,6 +3,7 @@
     
 <head>
     <link rel="icon" href="pictures/icon-cv-11.jpg">
+    <link href="styles/style.css" rel="stylesheet">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,26 +15,26 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#Contacts">Contacts</a></li>
-                <li><a href="#About_myself">About myself</a></li>
-                <li><a href="#Skills">Skills</a></li>
-                <li><a href="#Code_example">Code example</a></li>
-                <li><a href="#Education">Education</a></li>
-                <li><a href="#Courses">Courses</a></li>
-                <li><a href="#Languages">Languages</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#about_myself">About myself</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code_example">Code example</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#languages">Languages</a></li>
             </ul>
         </nav>
     </header>
 
     <main>      
         <article>
-            <h1>CV</h1>
+            <h1 id="article_name">CV</h1>
             <img src="pictures/photo.jpg" alt="photo">
             <section>
                 <h2 class="name">Stanislav Mikhaylov</h2>
                 <h2>Junior Frontend Developer</h2>
                 <address>
-                    <span id="Contacts">Contacts</span>
+                    <span id="contacts">Contacts</span>
                     <ul>
                         <li><b>Location:</b> Cheboksary, Russia</li>
                         <li><b>Phone:</b> +7 999 999 99-99</li>
@@ -43,7 +44,7 @@
                 </address>
             </section>
             <section>
-                <h2 id="About_myself">About myself</h2>
+                <h2 id="about_myself">About myself</h2>
                 <p>My <i>disadvantages</i> include the fact that very often I approach tasks in a non-standard way,
                     which leads to a loss of time. My <i>advantages</i> include the fact that usually sooner or 
                     later I achieve the goal.</p> 
@@ -53,7 +54,7 @@
                      and <b>in the right way</b>.</p>
             </section>
             <section>
-                <h2 id="Skills">Skills</h2>
+                <h2 id="skills">Skills</h2>
                 <ul>
                     <li><strong>HTML&CSS</strong></li>
                     <li><strong>Git</strong></li>
@@ -61,7 +62,7 @@
                 </ul>
             </section>
             <section>
-                <h2 id="Code_example">Code example</h2>
+                <h2 id="code_example">Code example</h2>
                 <span>The solution of the <a href="https://www.codewars.com/kata/5592e3bd57b64d00f3000047/train/python">exercise</a> is below.</span>
                 <pre> <code>           
 def find_nb(m):
@@ -76,13 +77,13 @@ def find_nb(m):
                 </code></pre>
             </section>
             <section>
-                <h2 id="Education">Education</h2>
+                <h2 id="education">Education</h2>
                 Bachelor's degree, Bauman Moscow State Technical University,
                 RADIOELECTRONICS AND LASER TECHNOLOGIES (RL),
                 RL-6 Technologies of Device Making
             </section>
             <section>    
-                <h2 id="Courses">Courses</h2>
+                <h2 id="courses">Courses</h2>
                 <h3>Git</h3>
                 <a href="https://learngitbranching.js.org/?locale=ru_RU">LearnGitBranching</a>
                 <h3>HTML&CSS</h3>
@@ -110,8 +111,8 @@ def find_nb(m):
                 <h3>JavaScript</h3>
                 <span><a href="https://learn.javascript.ru/">Online-book</a> (in progress)</span>    
             </section>   
-            <section>
-                <h2 id="Languages">Languages</h2>
+            <section id="lang_section">
+                <h2 id="languages">Languages</h2>
                 <ul>
                     <li><b>Russian</b> - native speaker.</li>
                     <li>StreamLine Language School <b>English</b> test result: Pre-Intermediate (CEFR A2+)</li>
